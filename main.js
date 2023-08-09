@@ -10,6 +10,7 @@ menuEmail.addEventListener('click', toggleDesktopMenu);
 burgerIcon.addEventListener('click', toggleMobileMenu);
 menuCarritoIcon.addEventListener('click', toggleCarritoMenu);
 
+// FUNCIONES PARA MOSTRAR SECCIONES DEL MENU Y OCULTAR OTRAS DEPENDIENDO DE CUAL VA A MOSTRARSE
 function toggleDesktopMenu(){
 
     carritoMenu.classList.add('inactive');
@@ -50,41 +51,41 @@ productList.push({
     price: 15000,
     image: 'https://spectrum.ieee.org/media-library/image.jpg?id=27044748',
 });
-productList.push({
-    name: 'Samsung Galaxy S24 Ultra',
-    price: 25000,
-    image: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/02/impresiones-samsung-galaxy-s23-ultra-2943540.jpg?tf=3840x',
-});
-productList.push({
-    name: 'Samsung Galaxy Fold 5',
-    price: 32000,
-    image: 'https://images.samsung.com/es/smartphones/galaxy-z-fold5/images/galaxy-z-fold5-highlights-kv-a.jpg?imbypass=true',
-});
-productList.push({
-    name: 'Nothing Phone 2',
-    price: 18000,
-    image: 'https://i2-prod.irishmirror.ie/incoming/article30443832.ece/ALTERNATES/s615/0_ELEV_ALAK_050-1.jpg',
-});
-productList.push({
-    name: 'Huawei P60 Pro 256GB',
-    price: 22000,
-    image: 'https://fdn2.mobgsm.com/vv/pics/huawei/huawei-p60-pro-1.jpg',
-});
-productList.push({
-    name: 'Huawei Mate 50 Pro 256GB',
-    price: 28000,
-    image: 'https://ss632.liverpool.com.mx/xl/1129195971.jpg',
-});
-productList.push({
-    name: 'Xiaomi 12 Pro 256GB',
-    price: 18000,
-    image: 'https://static3.pisapapeles.net/uploads/2022/05/XIAOMI-12-PRO-PISAPAPELES.NET-21.jpg',
-});
-productList.push({
-    name: 'Motorola Razr 40 Pro 256GB',
-    price: 30000,
-    image: 'https://cdn.smart-gsm.com/blog/wp-content/uploads/2023/06/Motorola-Razr-40-Ultra.jpg',
-});
+// productList.push({
+//     name: 'Samsung Galaxy S24 Ultra',
+//     price: 25000,
+//     image: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/02/impresiones-samsung-galaxy-s23-ultra-2943540.jpg?tf=3840x',
+// });
+// productList.push({
+//     name: 'Samsung Galaxy Fold 5',
+//     price: 32000,
+//     image: 'https://images.samsung.com/es/smartphones/galaxy-z-fold5/images/galaxy-z-fold5-highlights-kv-a.jpg?imbypass=true',
+// });
+// productList.push({
+//     name: 'Nothing Phone 2',
+//     price: 18000,
+//     image: 'https://i2-prod.irishmirror.ie/incoming/article30443832.ece/ALTERNATES/s615/0_ELEV_ALAK_050-1.jpg',
+// });
+// productList.push({
+//     name: 'Huawei P60 Pro 256GB',
+//     price: 22000,
+//     image: 'https://fdn2.mobgsm.com/vv/pics/huawei/huawei-p60-pro-1.jpg',
+// });
+// productList.push({
+//     name: 'Huawei Mate 50 Pro 256GB',
+//     price: 28000,
+//     image: 'https://ss632.liverpool.com.mx/xl/1129195971.jpg',
+// });
+// productList.push({
+//     name: 'Xiaomi 12 Pro 256GB',
+//     price: 18000,
+//     image: 'https://static3.pisapapeles.net/uploads/2022/05/XIAOMI-12-PRO-PISAPAPELES.NET-21.jpg',
+// });
+// productList.push({
+//     name: 'Motorola Razr 40 Pro 256GB',
+//     price: 30000,
+//     image: 'https://cdn.smart-gsm.com/blog/wp-content/uploads/2023/06/Motorola-Razr-40-Ultra.jpg',
+// });
 
 
 // Se maqueta la seccion a donde deben estar los productos recorriendo el array
