@@ -178,6 +178,7 @@ body {
   .title-container img {
     transform: rotate(180deg);
     margin-right: 14px;
+    cursor: pointer;
   }
   .title {
     font-size: var(--lg);
@@ -205,7 +206,7 @@ body {
     text-align: end;
     font-weight: bold;
   }
-  .shopping-cart {
+  .shopping-cart div {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     gap: 16px;
@@ -228,6 +229,13 @@ body {
     font-size: var(--md);
     font-weight: bold;
   }
+  .name-my-order {
+    color: var(--very-light-pink);
+}
+.price-my-order {
+    font-size: var(--md);
+    font-weight: bold;
+}
   .primary-button {
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -313,6 +321,7 @@ body {
     gap: 26px;
     place-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .product-card {
     width: 240px;
@@ -322,6 +331,7 @@ body {
     height: 240px;
     border-radius: 20px;
     object-fit: cover;
+    cursor: pointer;
   }
   .product-info {
     display: flex;
